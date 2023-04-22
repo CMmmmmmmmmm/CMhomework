@@ -9,7 +9,7 @@
 
  ####   安装完成截图
 
-![Android Studio安装截图](.\Images\1.png)
+![Android Studio安装截图](./Images/1.png)
 
 
 
@@ -43,7 +43,7 @@
 
 ##### 运行结果：
 
-![Android Studio](.\Images\2.png)
+![Android Studio](./Images/2.png)
 
 
 
@@ -51,13 +51,13 @@
 
 #### 安装完成截图
 
-![Anaconda](.\Images\3.png)
+![Anaconda](./Images/3.png)
 
 
 
 ##### 使用Anaconda 打开Jupyter Notebook
 
-![Jupyter](.\Images\4.png)
+![Jupyter](./Images/4.png)
 
 
 
@@ -79,7 +79,7 @@ print('Hello World!')
 
 ##### 运行结果：
 
-![Jupyter](.\Images\5.png)
+![Jupyter](./Images/5.png)
 
 
 
