@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.example.cameraxapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\CameraXApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\CameraXApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.camera.any" />
+11-->D:\CameraXApp\app\src\main\AndroidManifest.xml:4:5-64
+11-->D:\CameraXApp\app\src\main\AndroidManifest.xml:4:19-61
+12
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->D:\CameraXApp\app\src\main\AndroidManifest.xml:5:5-65
+13-->D:\CameraXApp\app\src\main\AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->D:\CameraXApp\app\src\main\AndroidManifest.xml:6:5-71
+14-->D:\CameraXApp\app\src\main\AndroidManifest.xml:6:22-68
+15    <uses-permission
+15-->D:\CameraXApp\app\src\main\AndroidManifest.xml:7:5-8:38
+16        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+16-->D:\CameraXApp\app\src\main\AndroidManifest.xml:7:22-78
+17        android:maxSdkVersion="28" />
+17-->D:\CameraXApp\app\src\main\AndroidManifest.xml:8:9-35
+18
+19    <queries>
+19-->[androidx.camera:camera-extensions:1.1.0-beta01] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\29a71f74ae233437037c75a3d341d657\transformed\camera-extensions-1.1.0-beta01\AndroidManifest.xml:24:5-28:15
+20        <intent>
+20-->[androidx.camera:camera-extensions:1.1.0-beta01] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\29a71f74ae233437037c75a3d341d657\transformed\camera-extensions-1.1.0-beta01\AndroidManifest.xml:25:9-27:18
+21            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+21-->[androidx.camera:camera-extensions:1.1.0-beta01] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\29a71f74ae233437037c75a3d341d657\transformed\camera-extensions-1.1.0-beta01\AndroidManifest.xml:26:13-86
+21-->[androidx.camera:camera-extensions:1.1.0-beta01] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\29a71f74ae233437037c75a3d341d657\transformed\camera-extensions-1.1.0-beta01\AndroidManifest.xml:26:21-83
+22        </intent>
+23    </queries>
+24
+25    <application
+25-->D:\CameraXApp\app\src\main\AndroidManifest.xml:10:5-28:19
+26        android:allowBackup="true"
+26-->D:\CameraXApp\app\src\main\AndroidManifest.xml:11:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.7.0] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\50c496870a364e4b133bd1a29f7e1039\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+28        android:dataExtractionRules="@xml/data_extraction_rules"
+28-->D:\CameraXApp\app\src\main\AndroidManifest.xml:12:9-65
+29        android:debuggable="true"
+30        android:fullBackupContent="@xml/backup_rules"
+30-->D:\CameraXApp\app\src\main\AndroidManifest.xml:13:9-54
+31        android:icon="@mipmap/ic_launcher"
+31-->D:\CameraXApp\app\src\main\AndroidManifest.xml:14:9-43
+32        android:label="@string/app_name"
+32-->D:\CameraXApp\app\src\main\AndroidManifest.xml:15:9-41
+33        android:supportsRtl="true"
+33-->D:\CameraXApp\app\src\main\AndroidManifest.xml:16:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.CameraXApp" >
+35-->D:\CameraXApp\app\src\main\AndroidManifest.xml:17:9-48
+36        <activity
+36-->D:\CameraXApp\app\src\main\AndroidManifest.xml:19:9-27:20
+37            android:name="com.android.example.cameraxapp.MainActivity"
+37-->D:\CameraXApp\app\src\main\AndroidManifest.xml:20:13-41
+38            android:exported="true" >
+38-->D:\CameraXApp\app\src\main\AndroidManifest.xml:21:13-36
+39            <intent-filter>
+39-->D:\CameraXApp\app\src\main\AndroidManifest.xml:22:13-26:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\CameraXApp\app\src\main\AndroidManifest.xml:23:17-69
+40-->D:\CameraXApp\app\src\main\AndroidManifest.xml:23:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->D:\CameraXApp\app\src\main\AndroidManifest.xml:25:17-77
+42-->D:\CameraXApp\app\src\main\AndroidManifest.xml:25:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <uses-library
+46-->[androidx.camera:camera-extensions:1.1.0-beta01] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\29a71f74ae233437037c75a3d341d657\transformed\camera-extensions-1.1.0-beta01\AndroidManifest.xml:31:9-33:40
+47            android:name="androidx.camera.extensions.impl"
+47-->[androidx.camera:camera-extensions:1.1.0-beta01] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\29a71f74ae233437037c75a3d341d657\transformed\camera-extensions-1.1.0-beta01\AndroidManifest.xml:32:13-59
+48            android:required="false" />
+48-->[androidx.camera:camera-extensions:1.1.0-beta01] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\29a71f74ae233437037c75a3d341d657\transformed\camera-extensions-1.1.0-beta01\AndroidManifest.xml:33:13-37
+49
+50        <service
+50-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\61d18e9b23b64fd9e316ded190766afe\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:26:9-35:19
+51            android:name="androidx.camera.core.impl.MetadataHolderService"
+51-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\61d18e9b23b64fd9e316ded190766afe\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:27:13-75
+52            android:enabled="false"
+52-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\61d18e9b23b64fd9e316ded190766afe\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:28:13-36
+53            android:exported="false" >
+53-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\61d18e9b23b64fd9e316ded190766afe\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:29:13-37
+54            <meta-data
+54-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\61d18e9b23b64fd9e316ded190766afe\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:32:13-34:89
+55                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+55-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\61d18e9b23b64fd9e316ded190766afe\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:33:17-103
+56                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+56-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\61d18e9b23b64fd9e316ded190766afe\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:34:17-86
+57        </service>
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\af44d8636ef6d9dd67695f842c043002\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\af44d8636ef6d9dd67695f842c043002\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+61            android:authorities="com.android.example.cameraxapp.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\af44d8636ef6d9dd67695f842c043002\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\af44d8636ef6d9dd67695f842c043002\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\af44d8636ef6d9dd67695f842c043002\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\af44d8636ef6d9dd67695f842c043002\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\af44d8636ef6d9dd67695f842c043002\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\c300985e18557acc936bcf4f1ab288c8\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\c300985e18557acc936bcf4f1ab288c8\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\成皿不熬夜！\.gradle\caches\transforms-3\c300985e18557acc936bcf4f1ab288c8\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+69        </provider>
+70    </application>
+71
+72</manifest>
